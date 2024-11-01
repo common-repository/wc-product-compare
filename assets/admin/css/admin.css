@@ -1,0 +1,117 @@
+#ks_admin_footer{text-align:center;font-style:italic;}
+input[type="checkbox"]{
+  display: none;
+}
+/* round checkbox
+ ************************/
+.wcpc_row .wcpc_field .wcpc_check{
+  width: 52px;
+  height: 24px;
+  position: relative;
+}
+.wcpc_row .wcpc_field .wcpc_check input {
+  opacity: 0;
+}
+.wcpc_row .wcpc_field .wcpc_check label {
+  position: absolute;
+  background-color: #585b5d;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 3.125rem;
+  -webkit-transition: background-color .2s ease-in-out;
+          transition: background-color .2s ease-in-out;
+}
+.wcpc_row .wcpc_field .wcpc_check label:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 3.125rem;
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  z-index: 1;
+  left: 3px;
+  background-color: #FFFFFD;
+  -webkit-transition: left .2s ease-in-out;
+          transition: left .2s ease-in-out;
+}
+.wcpc_row .wcpc_field .wcpc_check input[type=checkbox]:checked ~ label {
+  background-color: #4fbe79;
+}
+
+.wcpc_row .wcpc_field .wcpc_check input[type=checkbox]:checked ~ label:after {
+  left: 29px;
+}
+
+/*********** Radio button *************/
+
+.wcpc_row .wcpc_field .wcpc_radio input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.wcpc_row .wcpc_field .wcpc_radio label {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+/*  margin-bottom: 10px;*/
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 4px;
+  line-height: 26px;
+  cursor: pointer;
+}
+.wcpc_row .wcpc_field .wcpc_radio label::before {
+  content: " ";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #585b5d;
+  border-radius: 4px;
+  z-index: -1;
+}
+.wcpc_row .wcpc_field .wcpc_radio input[type="radio"] + label::before {
+  border-radius: 18px;
+}
+/* Checked */
+.wcpc_row .wcpc_field .wcpc_radio input[type="radio"]:checked + label {
+  padding-left: 10px;
+  color: #fff;
+}
+.wcpc_row .wcpc_field .wcpc_radio input[type="radio"]:checked + label::before {
+  top: 1px;
+  width: 100%;
+  height: 100%;
+  background: #4fbe79;
+}
+/* Transition */
+.wcpc_row .wcpc_field .wcpc_radio label,
+.wcpc_row .wcpc_field .wcpc_radio label::before {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+
+/*********** Text *************/
+.wcpc_row .wcpc_field .wcpc_text input[type="text"]{   
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
+.wcpc_row .wcpc_field .wcpc_text input[type="text"]:focus { 
+  border: 1px solid #4fbe79;
+}
+
+/********** Select2 ************/
+
+.wcpc_row .wcpc_field .wcpc_sort .select2-container--default.select2-container--focus .select2-selection--multiple{border: 1px solid #ddd;}
+.toplevel_page_wcpc_settings .select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #4fbe79;
+    color: white;
+}

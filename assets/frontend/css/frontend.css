@@ -1,0 +1,134 @@
+/* The Modal (background) */
+.wcpc-modal {
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 60px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.wcpc-modal .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 90%;
+    max-height: 93%;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.wcpc-modal .close {
+    color: #585b5d;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 12px;
+}
+
+.wcpc-modal .close:hover,
+.wcpc-modal .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wcpc-modal .modal-header {
+    padding: 2px 16px;
+    background-color: #f2f2f2;
+    color: #585b5d;
+}
+
+.wcpc-modal .modal-body {padding: 2px 16px;}
+
+/*********** Compare Button ************/
+.wcpc_loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: transparent !important;
+  margin: -30px 0 0 -30px;
+  border: 6px solid rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+}
+.wcpc_loader:before {
+  content: "";
+  display: block;
+  position: absolute;
+    left: 30px;
+    top: 2px;
+    height: 26px;
+    width: 26px;
+  -webkit-animation: rotation 1s infinite linear;
+  -moz-animation: rotation 1s infinite linear;
+  -o-animation: rotation 1s infinite linear;
+  animation: rotation 1s infinite linear;
+  border-top: 2px solid rgba(0, 0, 0, 0.8);
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-radius: 100%;
+}
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-moz-keyframes rotation {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-o-keyframes rotation {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/************** Carousal prev/next icons *************/
+/*.wcpc-compare-content .owl-nav .wcpc_prev{ font-size: 52px; padding-bottom: 16px; }*/
+/*.wcpc-compare-content .owl-nav .wcpc_prev:before { content:"\2039";}*/
+.wcpc-compare-content .owl-nav .wcpc_prev:before { content:"\2329";}
+/*.wcpc-compare-content .owl-nav .wcpc_next{ font-size: 52px; padding-bottom: 16px; }*/
+/*.wcpc-compare-content .owl-nav .wcpc_next:before { content:"\203A";}*/
+.wcpc-compare-content .owl-nav .wcpc_next:before { content:"\232A";}

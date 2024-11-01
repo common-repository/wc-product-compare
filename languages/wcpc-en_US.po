@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Product Compare\n"
+"POT-Creation-Date: 2017-05-05 22:54+0530\n"
+"PO-Revision-Date: 2017-05-05 22:55+0530\n"
+"Last-Translator: itzmekhokan <itzmekhokan@gmail.com>\n"
+"Language-Team: itzmekhokan <itzmekhokan@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class-wcpc-admin.php:22
+msgid "WC Product Compare Settings"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:29
+msgid "Enable WC Product Compare"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:41
+msgid "Enable WC Product Compare in Single Page"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:53
+msgid "Show Compare item in"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:65
+msgid "Add Compare Button Text"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:77
+msgid "View Compare Button Text"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:89
+msgid "Compare Button Text"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:152
+msgid "Add to Compare"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:163 classes/class-wcpc-ajax.php:44
+#: classes/class-wcpc-frontend.php:31
+msgid "View Compare"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:197 classes/class-wcpc-admin.php:198
+#: classes/class-wcpc-frontend.php:56 classes/class-wcpc.php:108
+msgid "WC Product Compare"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:222
+msgid "Settings Saved"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:283
+msgid "Powered by"
+msgstr ""
+
+#: classes/class-wcpc-admin.php:283
+msgid "itzmekhokan"
+msgstr ""
+
+#: classes/class-wcpc-ajax.php:28
+msgid "Error occurred while adding product to compare."
+msgstr ""
+
+#: classes/class-wcpc-ajax.php:35 includes/class-wcpc-product.php:189
+msgid "Product added to compare!"
+msgstr ""
+
+#: classes/class-wcpc-ajax.php:38
+msgid "Product already in compare list."
+msgstr ""
+
+#: classes/class-wcpc-ajax.php:80
+msgid "You Compare list is now Empty!"
+msgstr ""
+
+#: classes/class-wcpc-frontend.php:27
+msgid "Compare"
+msgstr ""
+
+#: includes/class-wcpc-product.php:171
+msgid "Please choose product options&hellip;"
+msgstr ""
+
+#: includes/class-wcpc-product.php:192 includes/class-wcpc-product.php:246
+msgid "Product already in compare."
+msgstr ""
+
+#: includes/wcpc-core-functions.php:6
+#, php-format
+msgid ""
+"%sWC Product Compare is inactive.%s The %sWooCommerce plugin%s require to "
+"work with WC Product Compare. Please %sinstall & activate WooCommerce%s"
+msgstr ""
+
+#: includes/wcpc-core-functions.php:18
+msgid "Product Title"
+msgstr ""
+
+#: includes/wcpc-core-functions.php:19
+msgid "Rating"
+msgstr ""
+
+#: includes/wcpc-core-functions.php:20
+msgid "Product Price"
+msgstr ""
+
+#: includes/wcpc-core-functions.php:21
+msgid "Product Type"
+msgstr ""
+
+#: includes/wcpc-core-functions.php:22
+msgid "Sale"
+msgstr ""
+
+#: includes/wcpc-core-functions.php:23
+msgid "Availability"
+msgstr ""
+
+#: includes/wcpc-core-functions.php:24
+msgid "Description"
+msgstr ""
+
+#: includes/wcpc-core-functions.php:25
+msgid "Categories"
+msgstr ""
+
+#: includes/wcpc-core-functions.php:26
+msgid "Variations"
+msgstr ""
+
+#: includes/wcpc-core-functions.php:27
+msgid "Tags"
+msgstr ""
+
+#: includes/wcpc-core-functions.php:28
+msgid "SKU"
+msgstr ""
+
+#: templates/shortcode/wcpc_compare_data.php:15
+msgid "Clear List"
+msgstr ""
+
+#: templates/shortcode/wcpc_compare_data.php:21
+msgid "Product Image"
+msgstr ""
+
+#: templates/shortcode/wcpc_compare_data.php:33
+msgid "Action"
+msgstr ""
+
+#: templates/shortcode/wcpc_compare_data.php:100
+msgid "In Stock"
+msgstr ""
+
+#: templates/shortcode/wcpc_compare_data.php:102
+msgid "Out of Stock"
+msgstr ""
+
+#: wc_product_compare.php:27
+msgid "Settings"
+msgstr ""
+
+#: wc_product_compare.php:28
+msgid "Support"
+msgstr ""
+
+#~ msgid "ID Number"
+#~ msgstr "Identification"
